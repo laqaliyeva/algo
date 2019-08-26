@@ -14,13 +14,12 @@ public class ThirdMaximumNumber {
     public static int thirdMax(int[] nums) {
         Arrays.sort(nums);
         Set<Integer> set = new HashSet<>();
-        int result = nums[nums.length - 1];
         for (int i = nums.length - 1; i >= 0; i--) {
             set.add(nums[i]);
             if (set.size() == 3) {
                 return nums[i];
             }
         }
-        return result;
+        return nums[nums.length - 1];
     }
 }
