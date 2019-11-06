@@ -7,7 +7,7 @@ public class ReverseVowels {
     * the vowels of a string. The vowels does not include the letter "y".
     *
     * Example           Input: "leetcode"
-                        Output: "leotcede"
+    *                   Output: "leotcede"
     */
 
     public static String reverseVowels(String s) {
