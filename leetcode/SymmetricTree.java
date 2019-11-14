@@ -1,7 +1,5 @@
 package leetcode;
 
-import sun.security.jgss.GSSToken;
-
 import java.util.Stack;
 
 public class SymmetricTree {
