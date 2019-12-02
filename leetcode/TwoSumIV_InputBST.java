@@ -8,7 +8,7 @@ package leetcode;
  *                         / \
  *                        3   6
  *                       / \   \
- *                      2   4   7*
+ *                      2   4   7
  *
  *                  Input:  5 , k = 28           Output: false
  *                         / \
