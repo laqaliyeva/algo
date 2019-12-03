@@ -10,6 +10,7 @@ package leetcode;
  *                    5   6
 */
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MaximumDepthOfNaryTree {
@@ -31,7 +32,7 @@ public class MaximumDepthOfNaryTree {
 class Node {
 
     public int val;
-    public List<Node> children;
+    public List<Node> children = new ArrayList<>();
 
     public Node() {}
 
