@@ -10,7 +10,7 @@ public class AddBinary {
     *                   Output: "10101"
     */
 
-    public static String addBinary(String a, String b) {
+    public String addBinary(String a, String b) {
         StringBuilder result = new StringBuilder();
         int length = Math.max(a.length(), b.length());
         int carrier = 0;
