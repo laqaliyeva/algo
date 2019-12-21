@@ -14,6 +14,8 @@ package leetcode;
  *                        1
 */
 
+import leetcode.util.TreeNode;
+
 public class TrimBST {
 
     public TreeNode trimBST(TreeNode root, int L, int R) {

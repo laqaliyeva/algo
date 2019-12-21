@@ -14,6 +14,8 @@ package leetcode;
  *                      5              4   7            5   4   7
 */
 
+import leetcode.util.TreeNode;
+
 public class MergeTwoBinaryTrees {
 
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {

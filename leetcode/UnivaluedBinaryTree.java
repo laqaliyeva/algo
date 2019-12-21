@@ -11,6 +11,8 @@ package leetcode;
  *                  Output: false
 */
 
+import leetcode.util.TreeNode;
+
 public class UnivaluedBinaryTree {
 
     public boolean isUnivalTree(TreeNode root) {

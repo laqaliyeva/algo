@@ -18,6 +18,8 @@ package leetcode;
  *                         4   5
 */
 
+import leetcode.util.TreeNode;
+
 public class CousinsInBinaryTree {
 
     private int depth = Integer.MAX_VALUE;

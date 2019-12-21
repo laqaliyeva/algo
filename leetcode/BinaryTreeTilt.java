@@ -11,6 +11,8 @@ package leetcode;
  *                       2     3
  */
 
+import leetcode.util.TreeNode;
+
 public class BinaryTreeTilt {
 
     private int tilt;

@@ -18,6 +18,8 @@ package leetcode;
  *                        2   2
 */
 
+import leetcode.util.TreeNode;
+
 public class SecondMinimumNodeInBinaryTree {
 
     public int findSecondMinimumValue(TreeNode root) {

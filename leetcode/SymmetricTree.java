@@ -1,5 +1,6 @@
 package leetcode;
 
+import leetcode.util.TreeNode;
 import java.util.Stack;
 
 public class SymmetricTree {
@@ -40,11 +41,4 @@ public class SymmetricTree {
         }
         return true;
     }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
 }

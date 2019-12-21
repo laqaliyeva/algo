@@ -13,6 +13,8 @@ package leetcode;
  *                                     9   8     7   4
 */
 
+import leetcode.util.TreeNode;
+
 public class LeafSimilarTrees {
 
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {

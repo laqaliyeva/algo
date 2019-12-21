@@ -11,6 +11,7 @@ package leetcode;
  *                        15   7
 */
 
+import leetcode.util.TreeNode;
 import java.util.*;
 
 public class AverageOfLevelsInBinaryTree {

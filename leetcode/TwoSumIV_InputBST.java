@@ -17,6 +17,7 @@ package leetcode;
  *                      2   4   7
 */
 
+import leetcode.util.TreeNode;
 import java.util.HashSet;
 import java.util.Set;
 

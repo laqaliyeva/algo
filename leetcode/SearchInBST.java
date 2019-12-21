@@ -13,6 +13,8 @@ package leetcode;
  *                      1   3
 */
 
+import leetcode.util.TreeNode;
+
 public class SearchInBST {
 
     public TreeNode searchBST(TreeNode root, int val) {

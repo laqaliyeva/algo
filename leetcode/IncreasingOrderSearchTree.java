@@ -16,6 +16,8 @@ package leetcode;
  *                                                              5
 */
 
+import leetcode.util.TreeNode;
+
 public class IncreasingOrderSearchTree {
 
     private TreeNode result = null;

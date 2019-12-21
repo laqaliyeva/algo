@@ -12,6 +12,8 @@ package leetcode;
  *                     1   1   5
 */
 
+import leetcode.util.TreeNode;
+
 public class LongestUnivaluePath {
 
     private int max;

@@ -21,6 +21,8 @@ package leetcode;
  *                           0
 */
 
+import leetcode.util.TreeNode;
+
 public class SubtreeOfAnotherTree {
 
     public boolean isSubtree(TreeNode s, TreeNode t) {

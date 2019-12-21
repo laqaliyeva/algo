@@ -8,6 +8,8 @@ package leetcode;
  *                  Output: 32
 */
 
+import leetcode.util.TreeNode;
+
 public class RangeSumOfBST {
 
     private int sum;

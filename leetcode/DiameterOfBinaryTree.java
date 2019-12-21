@@ -12,6 +12,8 @@ package leetcode;
  *                     4   5
  */
 
+import leetcode.util.TreeNode;
+
 public class DiameterOfBinaryTree {
 
     private int maxDiam;

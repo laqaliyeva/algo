@@ -10,6 +10,7 @@ package leetcode;
  *                    5   6
 */
 
+import leetcode.util.Node;
 import java.util.*;
 
 public class NaryTreePreOrderTraversal {

@@ -14,6 +14,8 @@ package leetcode;
  *                     0   1 0   1
 */
 
+import leetcode.util.TreeNode;
+
 public class SumOfRootToLeafBinaryNumbers {
 
     public int sumRootToLeaf(TreeNode root) {
