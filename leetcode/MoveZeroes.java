@@ -12,10 +12,12 @@ public class MoveZeroes {
     */
 
     public static void moveZeroes(int[] nums) {
-        int current = -1;
+        int numOfZeroes = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != 0 && ++current != i) {
-                nums[current] = nums[i];
+            if (nums[i] == 0) {
+                numOfZeroes++;
+            } else if (numOfZeroes > 0) {
+                nums[i - numOfZeroes] = nums[i];
                 nums[i] = 0;
             }
         }
