@@ -1,5 +1,7 @@
 package leetcode;
 
+import leetcode.util.TreeNode;
+
 public class ConstructStringFromBinaryTree {
 
     /*
@@ -36,11 +38,4 @@ public class ConstructStringFromBinaryTree {
             builder.append(")");
         }
     }
-
-    static class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-  }
 }

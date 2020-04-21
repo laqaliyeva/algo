@@ -1,5 +1,7 @@
 package leetcode;
 
+import leetcode.util.TreeNode;
+
 public class SameTree {
 
     /*
@@ -19,11 +21,4 @@ public class SameTree {
         }
         return p == null && q == null;
     }
-
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-  }
 }
