@@ -15,15 +15,12 @@ public class MajorityElement {
         Map<Integer, Integer> map = new HashMap<>();
         int result = nums[0];
         for (int i : nums) {
-            if (map.containsKey(i)) {
-                map.put(i, map.get(i) + 1);
-                if (map.get(i) > nums.length / 2) {
-                    result = i;
-                    break;
-                }
-            } else {
-                map.put(i, 1);
+            int count = map.getOrDefault(i, 0) + 1;
+            if (count > nums.length / 2) {
+                result = i;
+                break;
             }
+            map.put(i, count);
         }
         return result;
     }
