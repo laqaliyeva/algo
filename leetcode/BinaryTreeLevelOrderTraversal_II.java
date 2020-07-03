@@ -27,7 +27,7 @@ public class BinaryTreeLevelOrderTraversal_II {
 
     private static List<List<Integer>> fillList(TreeNode node, List<List<Integer>> lists, int idx) {
         if (node != null) {
-            while (idx > lists.size() - 1) {
+            while (idx >= lists.size()) {
                 lists.add(0, new ArrayList<>());
             }
             lists.get(lists.size() - 1 - idx).add(node.val);
