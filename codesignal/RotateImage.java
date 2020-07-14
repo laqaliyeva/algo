@@ -11,7 +11,7 @@ package codesignal;
 
 public class RotateImage {
 
-    int[][] rotateImage(int[][] arr) {
+    public int[][] rotateImage(int[][] arr) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
@@ -21,10 +21,10 @@ public class RotateImage {
             }
         }
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j <= n/2; j++) {
+            for (int j = 0; j < n / 2; j++) {
                 int tmp = arr[i][j];
                 arr[i][j] = arr[i][n - j - 1];
-                arr[i][n - j -1] = tmp;
+                arr[i][n - j - 1] = tmp;
             }
         }
         return arr;
